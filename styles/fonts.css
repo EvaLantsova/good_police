@@ -1,0 +1,11 @@
+ @font-face {
+  font-family: 'TryClother';
+  font-weight: normal;
+  src: url(../fonts/TryClother.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'TryClotherBold';
+  font-weight: bold;
+  src: url(../fonts/TryClotherBold.ttf)format('truetype');
+}
