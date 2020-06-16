@@ -2,21 +2,21 @@
 @import "fonts.css";
 
 body {
-  background-color: #FAF8F3;
-  font-family: 'TryClother', sans-serif;
-  overflow: hidden;
-  mar gin: 230px;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: #FAF8F3;
+    font-family: 'TryClother', sans-serif;
+    overflow-x: hidden;
+    mar gin: 230px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
-font-family: 'TryClother';
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 78.7%;
-color: #38569E;
+    font-family: 'TryClother';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 78.7%;
+    color: #38569E;
 }
 
 .grid {
@@ -31,66 +31,76 @@ color: #38569E;
 
 
 a {
-  font-size: 30px;
-  text-decoration: none;
-  color: #38569E;
+    font-size: 30px;
+    text-decoration: none;
+    color: #38569E;
 }
 
 a:hover {
-  color: #EDB63F;
-  text-decoration: none;
+    color: #EDB63F;
+    text-decoration: none;
 }
 
 a:active {
-  color: #FF5858;
-  text-underline-position: under;
+    color: #FF5858;
+    text-underline-position: under;
 }
 
 .img_menu a {
- color: #38569E;
- text-decoration: none;
+     color: #38569E;
+     text-decoration: none;
 }
 
 .wrapper {
-  width: 100vw;
-  height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .info {
-  width: 95vw;
-  height: 95vh;
-  padding: 5rem 10rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    width: 108vw;
+    height: 95vh;
+    padding: 5rem 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .menu_top {
-  display: flex;
-  wi dth: 23vw;
-  justify-content: space-between;
+    display: flex;
+    wi dth: 23vw;
+    justify-content: space-between;
 }
 
 .menu_bottom {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 47rem;
-  wid th: 20vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 47rem;
+    wid th: 20vw;
 }
 
 .img_menu {
-  /* display: block;
-  position: absolute;
-  left: 150px;
-  top: 180px;
-  width: 100vw;
-  height: 100vw; */
+    height: 98vh;
+    width: 115vw;
+    /* margin-top: -2px; */
+    /* position: absolute; */
+    margin-: 59vh;
+    padding: 17rem 20rem;
+    margin-top: -123vh;
+    margin-left: -7vw;
 }
 
+.logo_and_phrase {
+    width: 130vw;
+    height: 95vh;
+    padding: -3rem 10rem;
+    display: flex;
+    flex-direction: column;
+}
 
  .avopolice {
-    width: 997px;
-    height: 473px;
+     width: 61rem;
+     height: 33rem;
+
 }
 
 .img_menu a {
@@ -100,6 +110,10 @@ a:active {
     padding-left: 4vw;
 }
 
+.phrase {
+     width: auto;
+     text-align: center;
+}
 
 @media (max-width: 1440px) {
   .img_menu {
