@@ -1,3 +1,6 @@
+@import "reset.css";
+@import "fonts.css";
+
 body {
   background-color: #FAF8F3;
   font-family: 'TryClother', sans-serif;
@@ -13,8 +16,8 @@ body {
     display: grid;
     grid-gap: 100px 50px;
     grid-template-columns: 1fr 350px 350px 1fr;
-    width: 97vw;
-    margin: 11rem 19rem;
+    width: 100vw;
+    margin: 11rem 24rem;
     position: fixed;
 }
 
@@ -75,12 +78,14 @@ a:active {
 
 
 p {
-font-family: 'TryClother', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 101.7%;
-color: #000000;
+  font-family: 'TRY Clother';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 110.7%;
+  /* or 33px */
+
+  letter-spacing: -0.02em;
 }
 
 h1 {
@@ -102,6 +107,15 @@ font-weight: bold;
 font-size: 36px;
 line-height: 78.7%;
 color: #38569E;
+}
+
+.content_manifesto {
+  width: 82rem;
+    display: grid;
+    grid-gap: 13rem;
+    grid-template-columns: 16fr 33fr;
+    margin-left: 24rem;
+    padding: 21rem 14rem 22rem 5rem;
 }
 
 /* .grid {
