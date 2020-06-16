@@ -1,0 +1,57 @@
+
+@import "reset.css";
+@import "fonts.css";
+
+body {
+  background-color: #FAF8F3;
+  font-family: 'TryClother', sans-serif;
+  overflow: hidden;
+  mar gin: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+font-family: 'TryClother';
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 78.7%;
+color: #38569E;
+}
+
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #38569E;
+}
+
+
+.info {
+  width: 95vw;
+  height: 95vh;
+  padding: 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu_top {
+  display: flex;
+  wi dth: 23vw;
+  justify-content: space-between;
+}
+
+.menu_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 47rem;
+  wid th: 20vw;
+}
+
+.grid
+{display: grid;
+          grid-gap: 100px 50px;
+          grid-template-columns: 1fr 2fr;
+          width: 104vw;
+          margin: 2vw 2vw 2vw 2vw;
