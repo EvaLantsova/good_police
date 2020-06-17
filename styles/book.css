@@ -11,8 +11,8 @@
 	height: 260px;
 	left: 50%;
 	top: 50%;
-	margin-left: -400px;
-	margin-top: -125px;
+	margin-left: -40rem;
+	margin-top: 170px;
   position: relative;
 }
 
@@ -52,5 +52,7 @@
 
 #pageflip-canvas {
 	position: absolute;
+  top: -60px;
+  left: -60px;
 	z-index: 100;
 }

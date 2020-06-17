@@ -5,6 +5,7 @@ body {
     background-color: #FAF8F3;
     font-family: 'TryClother', sans-serif;
     overflow-x: hidden;
+    overflow-y: hidden;
     mar gin: 230px;
     margin-left: auto;
     margin-right: auto;
@@ -57,9 +58,9 @@ a:active {
 }
 
 .info {
-    width: 80vw;
-    height: 95vh;
-    padding: 5rem 20rem;
+    width: 82vw;
+    height: 86vh;
+    padding: 6rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -82,26 +83,23 @@ a:active {
     width: 65rem;
     height: 33rem;
     display: flex;
-
-    /* margin-top: -2px; */
-    /* position: absolute; */
-    margin-: 59vh;
     padding: 17rem 20rem;
     margin-top: -123vh;
-    margin-left: -7vw;
+    margin-left: -13vw;
 }
 
 .logo_and_phrase {
     width: 130vw;
     height: 74vh;
-    padding: 0rem 12rem;
+    padding: 6rem 12rem;
     display: flex;
     flex-direction: column;
+    margin-left: -4rem;
 }
 
  .avopolice {
-   width: 55rem;
-   height: 29rem;
+   width: 60rem;
+   height: 30rem;
    align-items: center;
 
 }
