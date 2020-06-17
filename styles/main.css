@@ -57,7 +57,7 @@ a:active {
 }
 
 .info {
-    width: 108vw;
+    width: 70vw;
     height: 95vh;
     padding: 5rem 20rem;
     display: flex;
@@ -94,14 +94,14 @@ a:active {
 .logo_and_phrase {
     width: 130vw;
     height: 95vh;
-    padding: -3rem 10rem;
+    padding: 0rem 12rem;
     display: flex;
     flex-direction: column;
 }
 
  .avopolice {
-   width: 65rem;
-   height: 33rem;
+   width: 55rem;
+   height: 29rem;
    align-items: center;
 
 }
@@ -113,9 +113,8 @@ a:active {
     padding-left: 4vw;
 }
 
-#phrase h2 {
-     width: auto;
-     text-align: center;
+#phrase {
+    text-align: center;
 }
 
 @media (max-width: 1440px) {
