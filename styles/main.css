@@ -79,8 +79,10 @@ a:active {
 }
 
 .img_menu {
-    height: 98vh;
-    width: 115vw;
+    width: 65rem;
+    height: 33rem;
+    display: flex;
+
     /* margin-top: -2px; */
     /* position: absolute; */
     margin-: 59vh;
@@ -98,8 +100,9 @@ a:active {
 }
 
  .avopolice {
-     width: 61rem;
-     height: 33rem;
+   width: 65rem;
+   height: 33rem;
+   align-items: center;
 
 }
 
@@ -110,7 +113,7 @@ a:active {
     padding-left: 4vw;
 }
 
-.phrase {
+#phrase h2 {
      width: auto;
      text-align: center;
 }
