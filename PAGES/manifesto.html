@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Avopolice check</title>
     <link rel="stylesheet" href="../styles/manifesto.css">
+    <link rel="stylesheet" href="../styles/book.css">
 </head>
  <body>
       <div class="grid_wrapper">
@@ -42,21 +44,36 @@
               </div>
             </div>
 
-            <div class="book_manifesto">
-              <div class="content">
-                  <div class="manifesto_book" id="manifesto_book">
-                <div><img src="../img/book1.png" alt="" draggable="false" class="img"></div>
-                <div><img src="../img/Book2.png" alt="" draggable="false" class="img"></div>
-                <div><img src="../img/Book3.png" alt="" draggable="false" class="img"></div>
-                <div><img src="../img/Book4.png" alt="" draggable="false" class="img"></div>
-                <div><img src="../img/Book5.png" alt="" draggable="false" class="img"></div>
-
-                <!-- <div class="hard"><img src="../imgs/book/макет_книги_итог_150.jpg" alt="" draggable="false" class="img"></div> -->
-                </div>
+            <div id="book">
+              <canvas id="pageflip-canvas"></canvas>
+              <div id="pages">
+                <section style="z-index: 1">
+                  <div>
+                    <img id="bookpage" src="../img/book1.png" alt="">
+                  </div>
+                </section>
+                <section style="z-index: 2">
+                  <div>
+                    <img id="bookpage" src="../img/Book2.png" alt="">
+                  </div>
+                </section>
+                <section style="z-index: 3">
+                  <div>
+                    <img id="bookpage" src="../img/book3.png" alt="">
+                  </div>
+                </section>
+                <section style="z-index: 4">
+                  <div>
+                  <img id="bookpage" src="../img/Book4.png" alt="">
+                  </div>
+                </section>
               </div>
             </div>
-    <div id="canvas"></div>
-    <!-- <script src="js/p5.min .js"></script> -->
+
+
+
+    <!-- <div id="canvas"></div> -->
+    <script src="../javascript/book.js" charset="utf-8"></script>
     <script src="../javascript/manifesto.js" charset="utf-8"></script>
 
  </body>
