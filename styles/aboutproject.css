@@ -1,0 +1,81 @@
+@import "reset.css";
+@import "fonts.css";
+
+body {
+    background-color: #FAF8F3;
+    font-family: 'TryClother', sans-serif;
+    overflow-x: hidden;
+    mar gin: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50rem; */
+}
+
+h2 {
+    font-family: 'TryClother';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 78.7%;
+    color: #38569E;
+}
+
+.grid {
+    /* grid-template-columns: [left-gutter] 1fr [wrapper] 12fr [right-gutter] 1fr;
+    grid-gap: 1vw; */
+    display: grid;
+    grid-gap: 100px 67px;
+    grid-template-columns: 1fr 350px 350px 1fr;
+    width: 101vw;
+    margin: 6rem 0rem;
+}
+
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #38569E;
+}
+
+a:hover {
+    color: #EDB63F;
+    text-decoration: none;
+}
+
+a:active {
+    color: #FF5858;
+    text-underline-position: under;
+}
+
+.img_menu a {
+     color: #38569E;
+     text-decoration: none;
+}
+
+.wrapper {
+    width: 96vw;
+    height: 86vh;
+}
+
+.info {
+  width: 74vw;
+  height: 68vh;
+  padding: 0rem 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+
+.menu_top {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+
+.menu_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39rem;
+}
