@@ -71,7 +71,7 @@ a:active {
 }
 
 .info {
-  width: 74vw;
+  width: 97vw;
   height: 68vh;
   padding: 10rem 10rem;
   display: flex;
@@ -81,6 +81,19 @@ a:active {
   z-index: 10;
 }
 
+h5 {
+  font-family: 'TryClotherBold';
+  font-style: normal;
+  font-weight: normal;
+  color: #38569E;
+}
+
+.carousel-item p {
+  font-family: 'TryClotherBold';
+  font-style: normal;
+  font-weight: normal;
+  color: #FFE471;
+}
 
 .menu_top {
     display: flex;
@@ -141,6 +154,14 @@ a:active {
   text-align: center;
 }
 
+.pages {
+  height: 10vh;
+  width: 10vw;
+}
+
+.carousel-item {
+  width: 20vw;
+}
 #manifesto_1 {
   text-align: center;
   margin-top: 3vh;
@@ -149,6 +170,11 @@ a:active {
 #manifesto_2 {
   margin-top: 10vh;
   text-align: center;
+}
+
+.poster_gallery {
+  padding: 1vw 54vh;
+  margin-top: -38vh;
 }
 
 .row_manifesto {

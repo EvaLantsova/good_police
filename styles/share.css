@@ -110,10 +110,6 @@ a:active {
   z-index: 200;
 }
 
-.pages {
-  height: 100vh;
-  width: 100vw;
-}
 
 .button p {
   text-align: center;
