@@ -103,6 +103,7 @@ a:active {
       grid-template-areas:
           "block1"
           "block2";
+          z-index: 1;
 }
 
 
@@ -125,6 +126,15 @@ a:active {
   .button p:active {
     background: #E8CD19;
   }
+
+.button #block1 {
+    margin-top: 3vh;
+    margin-left: -10vw;
+}
+
+.button #block2 {
+    margin-top: 2vh;
+}
 
 #canvas {
   margin-left: 32vw;
