@@ -115,6 +115,23 @@ a:active {
     text-align: center;
 }
 
+@media (max-width: 1240px) {
+  .info {
+    width: 73vw;
+    height: 86vh;
+    padding: 6rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+      }
+
+    .img_menu {
+      margin-left: -29vw;
+    }
+
+
+}
+
 @media (max-width: 1440px) {
   .img_menu {
   left: 321px;

@@ -5,15 +5,15 @@
 
 
 #book {
-	background: url("../img/book.png") no-repeat;
+	background: url(../img/book.png) no-repeat;
 	position: absolute;
-	width: 830px;
+	width: 861px;
 	height: 260px;
-	left: 50%;
+	left: 73%;
 	top: 50%;
-	margin-left: -40rem;
+	margin-left:  -40rem;
 	margin-top: 170px;
-  position: relative;
+	position: relative;
 }
 
 #pages section {

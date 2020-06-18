@@ -11,8 +11,21 @@ body {
     /* width: 50rem; */
 }
 
+h1 {
+  font-family: 'TRY Clother';
+font-style: normal;
+font-weight: bold;
+font-size: 200px;
+line-height: 110.7%;
+/* or 297px */
+
+letter-spacing: -0.02em;
+
+color: #D3402B;
+}
+
 h2 {
-    font-family: 'TryClother';
+    font-family: 'TryClotherBold';
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -81,6 +94,19 @@ a:active {
     margin-top: 39rem;
 }
 
+.menu_logo {
+  height: 20vh;
+  width: 20vw;
+}
+
+#super_logo {
+      height: 6vh;
+      width: 9vw;
+      margin-left: 6vw;
+}
+
+
+
 .img_menu {
     width: 65rem;
     height: 33rem;
@@ -101,13 +127,14 @@ a:active {
       grid-gap: 3rem;
       grid-auto-columns: 6fr;
       grid-template-rows: 16fr 69fr;
-      margin-left: 15rem;
-      padding: 0rem 14rem 0rem 16rem;
+      margin-left: 8rem;
+      padding: 0rem 14rem 0rem 10rem;
 }
 
 .rules {
     height: 12rem;
     width: 24rem;
+    margin-left: 10vw;
 }
 
 .rules h2 {
@@ -121,20 +148,20 @@ a:active {
 
 #manifesto_2 {
   margin-top: 10vh;
+  text-align: center;
 }
 
 .row_manifesto {
   padding: 7rem 0rem;
-  display: grid;
-  grid-template-columns: 35% 33%;
-  grid-row-gap: 2vw;
-  grid-column-gap: 11vw;
-  grid-template-areas:
-      "block1"
-      "block2"
-      "block3"
-      "block4";
-}
+      display: grid;
+      grid-template-columns: 35% 33%;
+      grid-row-gap: 2vw;
+      grid-column-gap: 11vw;
+      grid-template-areas:
+          "block_1"
+          "block_2"
+          "block_3"
+          "block_4";
 }
 
 .block_1 {
@@ -171,3 +198,14 @@ a:active {
   width: 94vw;
   margin: 2vw 2vw 2vw 2vw;
 } */
+
+#book {
+    background: url(../img/book.png) no-repeat;
+    position: absolute;
+    width: 861px;
+    height: 260px;
+    left: 54%;
+    top: 50%;
+    margin-top: 170px;
+    position: relative;
+}

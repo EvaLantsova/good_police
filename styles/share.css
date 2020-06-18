@@ -78,9 +78,21 @@ a:active {
     justify-content: space-between;
     margin-top: 39rem;
 }
+.menu_logo {
+  height: 20vh;
+  width: 20vw;
+}
+
+#super_logo {
+      height: 6vh;
+      width: 9vw;
+      margin-left: 6vw;
+}
+
+
 
 .questions_section {
-  margin-top: -55rem;
+  margin-top: -51rem;
       margin-left: 6rem;
       width: 27rem;
       padding: 3rem 32rem;
