@@ -15,7 +15,7 @@ h1 {
   font-family: 'TRY Clother';
 font-style: normal;
 font-weight: bold;
-font-size: 200px;
+font-size: 10vw;
 line-height: 110.7%;
 /* or 297px */
 
@@ -91,7 +91,7 @@ a:active {
 .menu_bottom {
     display: flex;
     justify-content: space-between;
-    margin-top: 39rem;
+    margin-top: 27rem;
 }
 
 .menu_logo {
@@ -100,7 +100,7 @@ a:active {
 }
 
 #super_logo {
-      height: 6vh;
+      height: 8vh;
       width: 9vw;
       margin-left: 6vw;
 }
@@ -152,7 +152,7 @@ a:active {
 }
 
 .row_manifesto {
-  padding: 7rem 0rem;
+  padding:11rem 0rem;
       display: grid;
       grid-template-columns: 35% 33%;
       grid-row-gap: 2vw;
@@ -179,6 +179,10 @@ a:active {
   justify-content: center;
 }
 
+.number p {
+  width: 18vw;
+}
+
 .number_text {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -188,8 +192,9 @@ a:active {
 }
 
 #item_number {
-  height: 30vh;
-  width: 25vw;
+  height: 21vh;
+      width: 25vw;
+      margin-top: 11px;
 }
 /* .grid {
   display: grid;
@@ -208,4 +213,13 @@ a:active {
     top: 50%;
     margin-top: 170px;
     position: relative;
+}
+
+#book_type {
+      margin-top: -13vh;
+}
+
+@media (min-width: 1440px){
+  .content_manifesto {
+        padding: 7rem 26rem 0rem 17rem;
 }

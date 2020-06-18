@@ -56,3 +56,9 @@
   left: -60px;
 	z-index: 100;
 }
+
+@media (min-width: 1440px){
+	#book {
+		left: 64%;
+	}
+}

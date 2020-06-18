@@ -141,3 +141,9 @@ a:active {
    width: none;
  }
 }
+
+@media (min-width: 1600px) {
+  .logo_and_phrase {
+    padding: 6rem 20rem;
+  }
+}
