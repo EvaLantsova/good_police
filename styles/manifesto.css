@@ -12,10 +12,10 @@ body {
 }
 
 h1 {
-  font-family: 'TRY Clother';
+font-family: 'TRY Clother';
 font-style: normal;
 font-weight: bold;
-font-size: 10vw;
+font-size: 7vw;
 line-height: 110.7%;
 /* or 297px */
 
@@ -152,11 +152,11 @@ a:active {
 }
 
 .row_manifesto {
-  padding:11rem 0rem;
+  padding: 0rem 0rem;
       display: grid;
-      grid-template-columns: 35% 33%;
+      grid-template-columns: 45% 33%;
       grid-row-gap: 2vw;
-      grid-column-gap: 11vw;
+      grid-column-gap: 9vw;
       grid-template-areas:
           "block_1"
           "block_2"
@@ -191,10 +191,25 @@ a:active {
    "cost";
 }
 
+.block_3 {
+  margin-left: 16vw;
+}
+
+.block_3 #number {
+  width: 19vw;
+}
+
+
 #item_number {
-  height: 21vh;
-      width: 25vw;
-      margin-top: 11px;
+  height: 13vh;
+  width: 25vw;
+  margin-top: 30vh;
+}
+
+.block_3 #item_number {
+  margin-top: -5vh;
+  margin-left: 0vw;
+  width: 20vw;
 }
 /* .grid {
   display: grid;
@@ -222,4 +237,10 @@ a:active {
 @media (min-width: 1440px){
   .content_manifesto {
         padding: 7rem 26rem 0rem 17rem;
+}
+
+@media (min-width: 1680px) {
+  .rules {
+    margin-left: 13vw;
+  }
 }
